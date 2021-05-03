@@ -54,7 +54,10 @@ You can add `SwiftUIWavyRectangleShape` as a package dependency in your `Package
 let package = Package(
     //...
     dependencies: [
-        .package(url: "https://github.com/CypherPoet/SwiftUIWavyRectangleShape", .exact("0.0.1")),
+        .package(
+          url: "https://github.com/CypherPoet/SwiftUIWavyRectangleShape",
+          .upToNextMinor(from: "0.1.0")
+        ),
     ],
     //...
 )
