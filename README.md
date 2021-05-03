@@ -2,10 +2,10 @@
 
 <!-- Header Logo -->
 
-<div align="center">
+<!-- <div align="center">
    <img width="600px" src="./Extras/banner-logo.png" alt="Banner Logo">
 </div>
-
+ -->
 
 <!-- Badges -->
 
@@ -31,6 +31,11 @@
 _An animatable SwiftUI Shape for drawing a rectangle with curved sine wave along the bottom_.
 
 <p />
+
+
+<div align="center">
+   <img height="500px" src="./Extras/recording-1.gif" alt="Demo Recording">
+</div>
 
 
 <!-- ## Features
@@ -96,10 +101,6 @@ Importing `SwiftUIWavyRectangleShape` will expose the `WavyRectangle` type.
 
 `WavyRectangle` documentation can be found [here](https://cypherpoet.github.io/SwiftUIWavyRectangleShape/), and this project's [example app](https://github.com/CypherPoet/SwiftUIWavyRectangleShape/tree/main/Examples/WavyRectangleShapeDemo) contains a demonstration of more ways to use it.
 
-
-<div align="center">
-   <img height="500px" src="./Extras/recording-1.gif" alt="Demo Recording">
-</div>
 
 ## Contributing
 
