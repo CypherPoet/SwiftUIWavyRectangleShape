@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31ED0C2263FCC6E000EBEA2 /* WavyRectangleShapeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0AF263FCC6B000EBEA2 /* WavyRectangleShapeDemoApp.swift */; };
+		F31ED0C3263FCC6E000EBEA2 /* WavyRectangleShapeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0AF263FCC6B000EBEA2 /* WavyRectangleShapeDemoApp.swift */; };
+		F31ED0C6263FCC6E000EBEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31ED0B1263FCC6E000EBEA2 /* Assets.xcassets */; };
+		F31ED0C7263FCC6E000EBEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31ED0B1263FCC6E000EBEA2 /* Assets.xcassets */; };
+		F31ED0D4263FCD3D000EBEA2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0D3263FCD3D000EBEA2 /* RootView.swift */; };
+		F31ED0D5263FCD3D000EBEA2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0D3263FCD3D000EBEA2 /* RootView.swift */; };
+		F31ED0D8263FCD5A000EBEA2 /* SwiftUIWavyRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F31ED0D7263FCD5A000EBEA2 /* SwiftUIWavyRectangleShape */; };
+		F31ED0DA263FCD61000EBEA2 /* SwiftUIWavyRectangleShape in Frameworks */ = {isa = PBXBuildFile; productRef = F31ED0D9263FCD61000EBEA2 /* SwiftUIWavyRectangleShape */; };
+		F31ED0DC263FCE05000EBEA2 /* WavyRectangleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0DB263FCE05000EBEA2 /* WavyRectangleDemoView.swift */; };
+		F31ED0DD263FCE05000EBEA2 /* WavyRectangleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0DB263FCE05000EBEA2 /* WavyRectangleDemoView.swift */; };
+		F31ED0E0263FCE3C000EBEA2 /* SwiftUIStarterKit in Frameworks */ = {isa = PBXBuildFile; productRef = F31ED0DF263FCE3C000EBEA2 /* SwiftUIStarterKit */; };
+		F31ED0E3263FCEAD000EBEA2 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0E2263FCEAD000EBEA2 /* ImageAssets.swift */; };
+		F31ED0E4263FCEAD000EBEA2 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0E2263FCEAD000EBEA2 /* ImageAssets.swift */; };
+		F31ED0E7263FCF18000EBEA2 /* SwiftUIShapeDemoUtils in Frameworks */ = {isa = PBXBuildFile; productRef = F31ED0E6263FCF18000EBEA2 /* SwiftUIShapeDemoUtils */; };
+		F31ED0EA263FD98B000EBEA2 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0E9263FD98B000EBEA2 /* ThemeColors.swift */; };
+		F31ED0EB263FD98B000EBEA2 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31ED0E9263FD98B000EBEA2 /* ThemeColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F31ED0AF263FCC6B000EBEA2 /* WavyRectangleShapeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyRectangleShapeDemoApp.swift; sourceTree = "<group>"; };
+		F31ED0B1263FCC6E000EBEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31ED0B6263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyRectangleShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31ED0B9263FCC6E000EBEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31ED0BE263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyRectangleShapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31ED0C0263FCC6E000EBEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31ED0C1263FCC6E000EBEA2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F31ED0D3263FCD3D000EBEA2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F31ED0DB263FCE05000EBEA2 /* WavyRectangleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyRectangleDemoView.swift; sourceTree = "<group>"; };
+		F31ED0E2263FCEAD000EBEA2 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
+		F31ED0E9263FD98B000EBEA2 /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31ED0B3263FCC6E000EBEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0D8263FCD5A000EBEA2 /* SwiftUIWavyRectangleShape in Frameworks */,
+				F31ED0E7263FCF18000EBEA2 /* SwiftUIShapeDemoUtils in Frameworks */,
+				F31ED0E0263FCE3C000EBEA2 /* SwiftUIStarterKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31ED0BB263FCC6E000EBEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0DA263FCD61000EBEA2 /* SwiftUIWavyRectangleShape in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31ED0A9263FCC6A000EBEA2 = {
+			isa = PBXGroup;
+			children = (
+				F31ED0D6263FCD5A000EBEA2 /* Frameworks */,
+				F31ED0B8263FCC6E000EBEA2 /* iOS */,
+				F31ED0BF263FCC6E000EBEA2 /* macOS */,
+				F31ED0B7263FCC6E000EBEA2 /* Products */,
+				F31ED0AE263FCC6B000EBEA2 /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		F31ED0AE263FCC6B000EBEA2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0AF263FCC6B000EBEA2 /* WavyRectangleShapeDemoApp.swift */,
+				F31ED0D0263FCC7C000EBEA2 /* Resources */,
+				F31ED0D1263FCC80000EBEA2 /* Scene Views */,
+				F31ED0D2263FCCD4000EBEA2 /* Styling */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F31ED0B7263FCC6E000EBEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0B6263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */,
+				F31ED0BE263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31ED0B8263FCC6E000EBEA2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0B9263FCC6E000EBEA2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F31ED0BF263FCC6E000EBEA2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0C0263FCC6E000EBEA2 /* Info.plist */,
+				F31ED0C1263FCC6E000EBEA2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F31ED0D0263FCC7C000EBEA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0B1263FCC6E000EBEA2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F31ED0D1263FCC80000EBEA2 /* Scene Views */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0D3263FCD3D000EBEA2 /* RootView.swift */,
+				F31ED0DB263FCE05000EBEA2 /* WavyRectangleDemoView.swift */,
+			);
+			path = "Scene Views";
+			sourceTree = "<group>";
+		};
+		F31ED0D2263FCCD4000EBEA2 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0E8263FD976000EBEA2 /* Colors */,
+				F31ED0E1263FCE94000EBEA2 /* Images */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		F31ED0D6263FCD5A000EBEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31ED0E1263FCE94000EBEA2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0E2263FCEAD000EBEA2 /* ImageAssets.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F31ED0E8263FD976000EBEA2 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F31ED0E9263FD98B000EBEA2 /* ThemeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31ED0B5263FCC6E000EBEA2 /* WavyRectangleShapeDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31ED0CA263FCC6E000EBEA2 /* Build configuration list for PBXNativeTarget "WavyRectangleShapeDemo (iOS)" */;
+			buildPhases = (
+				F31ED0B2263FCC6E000EBEA2 /* Sources */,
+				F31ED0B3263FCC6E000EBEA2 /* Frameworks */,
+				F31ED0B4263FCC6E000EBEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WavyRectangleShapeDemo (iOS)";
+			packageProductDependencies = (
+				F31ED0D7263FCD5A000EBEA2 /* SwiftUIWavyRectangleShape */,
+				F31ED0DF263FCE3C000EBEA2 /* SwiftUIStarterKit */,
+				F31ED0E6263FCF18000EBEA2 /* SwiftUIShapeDemoUtils */,
+			);
+			productName = "WavyRectangleShapeDemo (iOS)";
+			productReference = F31ED0B6263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31ED0BD263FCC6E000EBEA2 /* WavyRectangleShapeDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31ED0CD263FCC6E000EBEA2 /* Build configuration list for PBXNativeTarget "WavyRectangleShapeDemo (macOS)" */;
+			buildPhases = (
+				F31ED0BA263FCC6E000EBEA2 /* Sources */,
+				F31ED0BB263FCC6E000EBEA2 /* Frameworks */,
+				F31ED0BC263FCC6E000EBEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WavyRectangleShapeDemo (macOS)";
+			packageProductDependencies = (
+				F31ED0D9263FCD61000EBEA2 /* SwiftUIWavyRectangleShape */,
+			);
+			productName = "WavyRectangleShapeDemo (macOS)";
+			productReference = F31ED0BE263FCC6E000EBEA2 /* WavyRectangleShapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31ED0AA263FCC6A000EBEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F31ED0B5263FCC6E000EBEA2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					F31ED0BD263FCC6E000EBEA2 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F31ED0AD263FCC6A000EBEA2 /* Build configuration list for PBXProject "WavyRectangleShapeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31ED0A9263FCC6A000EBEA2;
+			packageReferences = (
+				F31ED0DE263FCE3C000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */,
+				F31ED0E5263FCF18000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */,
+			);
+			productRefGroup = F31ED0B7263FCC6E000EBEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31ED0B5263FCC6E000EBEA2 /* WavyRectangleShapeDemo (iOS) */,
+				F31ED0BD263FCC6E000EBEA2 /* WavyRectangleShapeDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31ED0B4263FCC6E000EBEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0C6263FCC6E000EBEA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31ED0BC263FCC6E000EBEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0C7263FCC6E000EBEA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31ED0B2263FCC6E000EBEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0EA263FD98B000EBEA2 /* ThemeColors.swift in Sources */,
+				F31ED0DC263FCE05000EBEA2 /* WavyRectangleDemoView.swift in Sources */,
+				F31ED0D4263FCD3D000EBEA2 /* RootView.swift in Sources */,
+				F31ED0E3263FCEAD000EBEA2 /* ImageAssets.swift in Sources */,
+				F31ED0C2263FCC6E000EBEA2 /* WavyRectangleShapeDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31ED0BA263FCC6E000EBEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ED0EB263FD98B000EBEA2 /* ThemeColors.swift in Sources */,
+				F31ED0DD263FCE05000EBEA2 /* WavyRectangleDemoView.swift in Sources */,
+				F31ED0D5263FCD3D000EBEA2 /* RootView.swift in Sources */,
+				F31ED0E4263FCEAD000EBEA2 /* ImageAssets.swift in Sources */,
+				F31ED0C3263FCC6E000EBEA2 /* WavyRectangleShapeDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F31ED0C8263FCC6E000EBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F31ED0C9263FCC6E000EBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F31ED0CB263FCC6E000EBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.WavyRectangleShapeDemo;
+				PRODUCT_NAME = WavyRectangleShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31ED0CC263FCC6E000EBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.WavyRectangleShapeDemo;
+				PRODUCT_NAME = WavyRectangleShapeDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31ED0CE263FCC6E000EBEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.WavyRectangleShapeDemo;
+				PRODUCT_NAME = WavyRectangleShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F31ED0CF263FCC6E000EBEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QRXXH2RKAG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.cypherpoet.WavyRectangleShapeDemo;
+				PRODUCT_NAME = WavyRectangleShapeDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31ED0AD263FCC6A000EBEA2 /* Build configuration list for PBXProject "WavyRectangleShapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31ED0C8263FCC6E000EBEA2 /* Debug */,
+				F31ED0C9263FCC6E000EBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31ED0CA263FCC6E000EBEA2 /* Build configuration list for PBXNativeTarget "WavyRectangleShapeDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31ED0CB263FCC6E000EBEA2 /* Debug */,
+				F31ED0CC263FCC6E000EBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31ED0CD263FCC6E000EBEA2 /* Build configuration list for PBXNativeTarget "WavyRectangleShapeDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31ED0CE263FCC6E000EBEA2 /* Debug */,
+				F31ED0CF263FCC6E000EBEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F31ED0DE263FCE3C000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIStarterKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.53;
+			};
+		};
+		F31ED0E5263FCF18000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CypherPoet/SwiftUIShapeDemoUtils";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F31ED0D7263FCD5A000EBEA2 /* SwiftUIWavyRectangleShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIWavyRectangleShape;
+		};
+		F31ED0D9263FCD61000EBEA2 /* SwiftUIWavyRectangleShape */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIWavyRectangleShape;
+		};
+		F31ED0DF263FCE3C000EBEA2 /* SwiftUIStarterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31ED0DE263FCE3C000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIStarterKit" */;
+			productName = SwiftUIStarterKit;
+		};
+		F31ED0E6263FCF18000EBEA2 /* SwiftUIShapeDemoUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F31ED0E5263FCF18000EBEA2 /* XCRemoteSwiftPackageReference "SwiftUIShapeDemoUtils" */;
+			productName = SwiftUIShapeDemoUtils;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F31ED0AA263FCC6A000EBEA2 /* Project object */;
+}

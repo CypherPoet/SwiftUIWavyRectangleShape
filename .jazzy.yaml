@@ -1,8 +1,8 @@
-module: MyLibrary
+module: SwiftUIWavyRectangleShape
 author: CypherPoet
 author_url: https://github.com/CypherPoet
 copyright: Copyright 2021 CypherPoet
-github_url: https://github.com/CypherPoet/MyLibrary
+github_url: https://github.com/CypherPoet/SwiftUIWavyRectangleShape
 theme: fullwidth
 swift_build_tool: spm
 clean: true
