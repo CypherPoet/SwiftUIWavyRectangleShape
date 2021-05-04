@@ -20,8 +20,11 @@ public struct WavyRectangle {
     /// Periods (i.e., repetitions of the wave) within the rectangle bounds.
     public typealias Hertz = CGFloat
     
+    
     public var phase: Angle
     
+    
+    /// Ratio of amplitude height to total height of the shape's bounding rect.
     @UnitInterval
     public var amplitudeRatio: HeightRatio
     
