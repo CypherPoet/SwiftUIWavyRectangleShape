@@ -1,4 +1,4 @@
-# SwiftUIWavyRectangleShape
+# WavyRectangle
 
 <!-- Header Logo -->
 
